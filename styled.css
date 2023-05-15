@@ -70,6 +70,7 @@ a {
 
 .index__list-link {
 	font-size: 20px;
+	position: relative;
 }
 .index__list-link:hover {
 	color: #c0c0c0;
@@ -124,10 +125,6 @@ a {
 .credo-text {
 	margin-bottom: 0;
 }
-.index__main-credo {
-}
-.main__credo-title {
-}
 
 .footer {
 	border-top: 2px solid #ffffff;
@@ -152,15 +149,25 @@ a {
 .contact__list-link:hover {
 	color: #ffffff;
 }
+.opportunity__seaction {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 .opportunity__title {
 	text-align: center;
 }
-.opportunity__div {
-	width: 400px;
+.opportunity__div-img {
+	width: 100%;
+}
+
+.opportunity-div {
+	padding: 10px;
 }
 .opportunity__list-img {
 	object-fit: cover;
 	height: 400px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 .opportunity__list {
 	width: 900px;
@@ -174,17 +181,21 @@ a {
 	justify-items: center;
 }
 .opportunity__list-item {
+	width: 410px;
+	background-color: rgba(28, 28, 28, 0.648);
+	box-shadow: 0px 7px 20px -4px rgba(255, 255, 255, 1);
+	border-radius: 10px;
 }
 .opportunity-div {
 	width: 400px;
 }
-/* .current {
+.current {
 	color: #ffffff;
 }
 
 .index__list-link.current::after {
 	position: absolute;
-	bottom: 0;
+	bottom: -8px;
 	left: 0;
 	color: #ffffff;
 	background-color: #ffffff;
@@ -193,4 +204,29 @@ a {
 	display: block;
 	width: 100%;
 	height: 5px;
-} */
+}
+.education {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 150px;
+	height: 350px;
+	text-align: center;
+}
+.education__title {
+	font-size: 30px;
+}
+.education__text {
+	font-size: 20px;
+}
+.hobby {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: 310px;
+	margin-top: 199px;
+}
+.hobby__list {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	font-size: 20px;
+}
